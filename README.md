@@ -6,8 +6,8 @@ Car rental agencies often impose conditions for their customers to rent a car fr
 You may often find applications to rent rooms or houses but not for cars.   
 **RentMe** is an app that lets you rent your car in the region or in specific areas, for as long as you like if the car of your choice is available 
 ### Project progression: 
-Hito 00   
-Hito 01    
+[Hito 00 ](https://github.com/Ilyas-ZG/Cloud-Computing-2324/tree/main/Hitos/Hito00)  
+[Hito 01](https://github.com/Ilyas-ZG/Cloud-Computing-2324/tree/main/Hitos/Hito01)  
 Hito 02    
 
 ### Additional documents :
