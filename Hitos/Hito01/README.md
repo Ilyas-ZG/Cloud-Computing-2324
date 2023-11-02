@@ -1,5 +1,5 @@
 ## Hito01:  
-### :heavy_minus_sign: Issues "User-stories": 
+###  Issues "User-stories": 
 ---  
 Here we are going to put some user stories, that we will work on:
 
@@ -9,11 +9,11 @@ Here we are going to put some user stories, that we will work on:
 - [HU-4](https://github.com/Ilyas-ZG/Cloud-Computing-2324/issues/6) : As a user i want to be able to create an account
 
 ***
-### :heavy_minus_sign: Milestones: 
+###  Milestones: 
 By clicking on [milestones](https://github.com/Ilyas-ZG/Cloud-Computing-2324/milestones) it takes you where you can see the milestones Open and the closed ones
 
 ---
-### :heavy_minus_sign: Application structure:
+### Application structure:
 #### Classes:  
 
 In this application we will use 2 classes: 
