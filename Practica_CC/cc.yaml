@@ -1,0 +1,6 @@
+version: 1.0.0
+
+config:
+  language: nodejs
+  test: ./tests
+  task_file: ./Makefile
