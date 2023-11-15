@@ -35,5 +35,19 @@ describe('Car Routes', () => {
       });
   });
 
+  it('should add a new car', (done) => {
+    const newCar = { brand: 'TestBrand', model: 'TestModel' };
+
+    chai.request(app)
+      .post('/cars')
+      .send(newCar)
+      .end((err, res) => {
+        expect(res).to.have.status(201);
+        expect(res.body).to.have.property('brand', newCar.brand);
+        expect(res.body).to.have.property('model', newCar.model);
+        done();
+      });
+  });
+
   // Ajoutez d'autres tests pour les différentes opérations CRUD
 });
