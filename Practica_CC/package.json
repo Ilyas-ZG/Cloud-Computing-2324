@@ -1,7 +1,7 @@
 {
   "name": "practica_cc",
   "version": "1.0.0",
-  "description": "",
+  "description": "The applciation is about renting cars between peaple, every one can rent a car or, can put his car fo rent",
   "main": "index.js",
   "scripts": {
     "test": "mocha tests/*.test.js"
