@@ -1,4 +1,4 @@
-
+ 
 # Hito02:  
 In this Hito we will see all the Language, envirenment, Framwork, dependency, tools.. that I used for this project.  
 As I am working with javascript in the VScode editor, in the nodejs environment the choice is clear to work with the **npm** task manager  
@@ -53,7 +53,7 @@ Till now in this project i user some tests of functions that i user and it's wor
 ### cc.yaml , Makefile:
 A [**Makefile** ](https://github.com/Ilyas-ZG/Cloud-Computing-2324/blob/main/Practica_CC/Makefile)is a file that contains a set of rules and commands for building and managing the 
 compilation of a project. It is usually used with the make utility, which executes
-the commands in the Makefile according to the dependencies and timestamps of the files  
+the commands in the Makefile according to the dependencies and timestamps of the files   
 
 [**cc.yaml**](https://github.com/Ilyas-ZG/Cloud-Computing-2324/blob/main/Practica_CC/cc.yaml) Contains the project configuration, including the information necessary for its 
 automation and continuous integration. It can specify details such as the programming language 
