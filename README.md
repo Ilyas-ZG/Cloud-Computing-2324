@@ -5,7 +5,7 @@ In the Project progression part we will divide the work into [Hitos](https://git
 ### Project progression: 
 [Hito 00 ](https://github.com/Ilyas-ZG/Cloud-Computing-2324/tree/main/Hitos/Hito00): Project description and configuration  
 [Hito 01](https://github.com/Ilyas-ZG/Cloud-Computing-2324/tree/main/Hitos/Hito01): Project planification   
-Hito 02    
+[Hito 02 ](https://github.com/Ilyas-ZG/Cloud-Computing-2324/tree/main/Hitos/Hito02) : Tests  
 
 ### Additional documents :
 [Licence](https://github.com/Ilyas-ZG/Cloud-Computing-2324/blob/main/LICENSE) of the project 
