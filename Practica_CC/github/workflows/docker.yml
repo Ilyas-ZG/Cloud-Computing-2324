@@ -24,5 +24,5 @@ jobs:
         file: Dockerfile
         push: true
         tags: |
-          ilyaszg/Cloud-Computing-2324:latest
-          ilyaszg/Cloud-Computing-2324:${{ github.sha }}
+          ilyasszg/cloud-computing-2324:latest
+          ilyasszg/cloud-computing-2324:${{ github.sha }}
