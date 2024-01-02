@@ -1,0 +1,28 @@
+name: Docker Build and Push
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    env:
+      DOCKER_USERNAME: ${{ DOCKER_HUB_USERNAME }}
+
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Build and push Docker image
+      uses: docker/build-push-action@v2
+      with:
+        context: .
+        file: Dockerfile
+        push: true
+        tags: |
+          ilyaszg/Cloud-Computing-2324:latest
+          ilyaszg/Cloud-Computing-2324:${{ github.sha }}
