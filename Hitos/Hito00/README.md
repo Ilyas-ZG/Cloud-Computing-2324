@@ -7,3 +7,4 @@ You may often find applications to rent rooms or houses but not for cars.
 
   
 **RentMe** is an app that lets you rent a car in the region or in specific areas, for as long as you like if the car of your choice is available. Or if you have a car that you don't use it too much and you want to earn a little money, you can put it here to see if anyone wants it for a few days
+ 
