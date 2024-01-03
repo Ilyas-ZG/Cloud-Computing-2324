@@ -13,7 +13,7 @@ RUN npm install --production
 
 COPY . .
 
-RUN npm prune --production
+RUN npm prune --production 
 
 EXPOSE 3000
 
