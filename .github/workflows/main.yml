@@ -18,5 +18,5 @@ jobs:
           REPOSITORY: cloud-computing-2324
           IMAGE_TAG: latest
         run: |
-          docker build -t ${{ secrets.DOCKERHUB_USERNAME }}/$REPOSITORY:$IMAGE_TAG -f C:/Users/ilyas/OneDrive/Bureau/ILYAS/kraya/I/CCCC/Cloud-Computing-2324/Dockerfile .
+          docker build -t ${{ secrets.DOCKERHUB_USERNAME }}/$REPOSITORY:$IMAGE_TAG -f C:\\Users\\ilyas\\OneDrive\\Bureau\\ILYAS\\kraya\\I\\CCCC\\Cloud-Computing-2324\\Dockerfile .
           docker push ${{ secrets.DOCKERHUB_USERNAME }}/$REPOSITORY:$IMAGE_TAG
