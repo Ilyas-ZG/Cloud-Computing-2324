@@ -9,7 +9,7 @@ NPM is installed when Node.js is installed on a machine. npm (Node Package Manag
 tool that allows us to create a Node.js project and install the libraries we use in the project. 
 We can later use it to initialize the project. 
 
-To initialize it, we need to type the following command.
+To initialize it, we need to  type the following command.
 
 ~~~
 npm init
