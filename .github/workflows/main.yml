@@ -10,9 +10,9 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      DOCKER_USERNAME: ${{ DOCKER_HUB_USERNAME }}
-      DOCKER_PASSWORD: ${{ DOCKER_HUB_PASSWORD }}
-
+      DOCKER_USERNAME: ${{ secrets.DOCKER_HUB_USERNAME }}
+      DOCKER_PASSWORD: ${{ secrets.DOCKER_HUB_PASSWORD }}
+      
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
