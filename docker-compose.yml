@@ -2,7 +2,7 @@ version: '3'
 
 services:
   web:
-    image: myappcountnode:latest
+    image: cloud-computing-2324:latest
     ports:
       - "8080:3000"
     depends_on:
