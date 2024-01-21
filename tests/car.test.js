@@ -17,13 +17,12 @@ describe('Car Routes', () => {
   });
 
   it('should delete a car', (done) => {
-    // Ajoutez une voiture factice pour les tests
     const newCar = { brand: 'TestBrand', model: 'TestModel' };
     chai.request(app)
       .post('/cars')
       .send(newCar)
       .end((err, res) => {
-        const existingCarId = res.body.id; // Utilisez l'ID de la voiture ajoutée
+        const existingCarId = res.body.id; 
 
         chai.request(app)
           .delete(`/cars/${existingCarId}`)
@@ -49,5 +48,5 @@ describe('Car Routes', () => {
       });
   });
 
-  // Ajoutez d'autres tests pour les différentes opérations CRUD
+ 
 });

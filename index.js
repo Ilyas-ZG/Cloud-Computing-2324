@@ -5,7 +5,7 @@ const app = express();
 
 app.use(express.json());
 
-// Utilisez les routes
+
 app.use('/cars', carRoutes);
 app.use('/users', userRoutes);
 
@@ -15,4 +15,4 @@ const server = app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
 
-module.exports = server; // Exportez l'instance du serveur pour les tests
+module.exports = server; 

@@ -17,18 +17,18 @@ describe('Users API', () => {
   });
 
   it('should add a new user', (done) => {
-    const newUser = { name: 'TestUser', email: 'test@example.com' }; // Change from username to name
+    const newUser = { name: 'TestUser', email: 'test@example.com' }; 
     chai.request(app)
       .post('/users')
       .send(newUser)
       .end((err, res) => {
         expect(res).to.have.status(201);
-        expect(res.body).to.have.property('name', newUser.name); // Change from username to name
+        expect(res.body).to.have.property('name', newUser.name); 
         done();
       });
   });
 
   
 
-  // Add other tests for different CRUD operations
+  
 });
