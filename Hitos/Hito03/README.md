@@ -73,6 +73,8 @@ We can also see our applciation deployement on docker desktop as showed in the f
 ## Pushing on docker hub<a name="item5"></a>
 As it is mentioned in docker hub repository, To push a new tag to this repository we can use the following commande 
 > docker push ilyasszg/cloud-computing-2324:tagname
+![image](https://github.com/Ilyas-ZG/Cloud-Computing-2324/assets/116302871/e5e95172-1231-4268-907e-089ad851ba1a)
+
 
 ![imagePublishingDockerHub](https://github.com/Ilyas-ZG/Cloud-Computing-2324/assets/116302871/4afefb32-e21e-4f33-a5d3-71534e60de44)
 
