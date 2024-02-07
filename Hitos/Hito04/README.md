@@ -19,7 +19,7 @@ Jenkins, an open-source tool, manages CI/CD pipelines on local or remote servers
 #### Travis CI:
 Easily integrated with GitHub, Travis CI is a cloud service streamlining testing and deployments. Its simplicity, speed, and reliability make it an attractive choice for applications hosted on GitHub.
   
-Considering that the project has been hosted on GitHub since the beginning as part of the learning process,  I have decided to star and continue with GitHub Actions.
+Considering that the project has been hosted on GitHub since the beginning as part of the learning process,  I have decided to star and continue with GitHub Actions and CircleCI .
   
 ## GitHub Actions implementation <a name="item2"></a>
 
@@ -36,8 +36,20 @@ Next, we have the creation of secrets in GitHub. In the "Settings" tab of the re
 
 Then, after committing and pushing the work, when we navigate to the "Actions" tab in our repository, we can see the following:  
 
-![image](https://github.com/Ilyas-ZG/Cloud-Computing-2324/assets/116302871/b2c9d358-5b8f-4e09-8b1e-bb5e0384d2ea)
+![image](https://github.com/Ilyas-ZG/Cloud-Computing-2324/assets/116302871/b2c9d358-5b8f-4e09-8b1e-bb5e0384d2ea)  
 
+## Circleci Actions implementation <a name="item2"></a>
+Its very easy to  configure our project with CircleCI we just neet:
+1. To Access the CircleCI interface at app.circleci.com.
+2. Authorize the connection between CircleCI and our GitHub account.
+3. Choose the repository we want to integrate with CircleCI.
+4. When given the option to select a configuration file, choose the "Fast" option to get a simplified starting configuration.
+5. Click "Set Up Project" to proceed.
+6. Choose a sample configuration, our project, and select Node.js. After that, click "Commit & Run."
+This will automatically generate a configuration file [.circleci/config.yml](https://github.com/Ilyas-ZG/Cloud-Computing-2324/blob/main/.circleci/config.yml).
+And this is the result of  CircleCI dashboard:
+
+  ![11111](https://github.com/Ilyas-ZG/Cloud-Computing-2324/assets/116302871/4375d3f5-6ca2-4641-94e2-1bdffe038bed)
 
 
 
