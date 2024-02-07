@@ -2,6 +2,7 @@
 
 - [Continuous Integration systems comparison ](#item1)
 - [GitHub Actions implementation](#item2)
+- [CircleCi implementation](#item3)
 
 
 ## Continuous Integration systems comparison <a name="item1"></a>
@@ -38,7 +39,7 @@ Then, after committing and pushing the work, when we navigate to the "Actions" t
 
 ![image](https://github.com/Ilyas-ZG/Cloud-Computing-2324/assets/116302871/b2c9d358-5b8f-4e09-8b1e-bb5e0384d2ea)  
 
-## Circleci Actions implementation <a name="item2"></a>
+## Circleci implementation <a name="item3"></a>
 Its very easy to  configure our project with CircleCI we just neet:
 1. To Access the CircleCI interface at app.circleci.com.
 2. Authorize the connection between CircleCI and our GitHub account.
