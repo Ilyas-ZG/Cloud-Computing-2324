@@ -1,4 +1,4 @@
-## Hito04:  Creación de un contenedor para pruebas:
+## Hito03:  Creación de un contenedor para pruebas:
 
 - [Choosing the container](#item1)
 - [Dockerfile](#item2)
