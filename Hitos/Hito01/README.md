@@ -17,8 +17,8 @@ By clicking on [milestones](https://github.com/Ilyas-ZG/Cloud-Computing-2324/mil
 #### Classes:  
 
 In this application we will use 2 classes: 
-- **[User](https://github.com/Ilyas-ZG/Cloud-Computing-2324/blob/main/RentMe/models/User.js)**  
-- **[Car](https://github.com/Ilyas-ZG/Cloud-Computing-2324/blob/main/RentMe/models/Car.js)**
+- **[User](https://github.com/Ilyas-ZG/Cloud-Computing-2324/blob/main/models/user.js)**  
+- **[Car](https://github.com/Ilyas-ZG/Cloud-Computing-2324/blob/main/models/car.js)**
 
 The code of classes we can see it [here](https://github.com/Ilyas-ZG/Cloud-Computing-2324/tree/main/RentMe/models)
 
