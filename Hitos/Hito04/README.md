@@ -52,6 +52,9 @@ And this is the result of  CircleCI dashboard:
 
   ![11111](https://github.com/Ilyas-ZG/Cloud-Computing-2324/assets/116302871/4375d3f5-6ca2-4641-94e2-1bdffe038bed)
 
+![image](https://github.com/Ilyas-ZG/Cloud-Computing-2324/assets/116302871/c178aa52-4bd1-4d04-9374-fb0b9002eb66)
+
+
 
 
 
