@@ -20,16 +20,16 @@ router.get('/:id', (req, res) => {
 
 // Add a new user
 router.post('/', (req, res) => {
-  const { name, email } = req.body; // Change from username to name
-  const newUser = new User(name, email); // Change from username to name
+  const { name, email } = req.body; 
+  const newUser = new User(name, email); 
   User.addUser(newUser);
   res.status(201).json(newUser);
 });
 
 // Update a user by ID
 router.put('/:id', (req, res) => {
-  const { name, email } = req.body; // Change from username to name
-  const updatedUser = User.updateUser(req.params.id, name, email); // Change from username to name
+  const { name, email } = req.body; 
+  const updatedUser = User.updateUser(req.params.id, name, email); 
   if (updatedUser) {
     res.json(updatedUser);
   } else {
