@@ -5,7 +5,7 @@ const userRoutes = require('./routes/userRoutes');
 const app = express();
 
 // logs requestes  HTTP
-app.use(morgan('dev'));
+app.use(morgan('combined'));
 
 app.use(express.json());
 app.use('/cars', carRoutes);
